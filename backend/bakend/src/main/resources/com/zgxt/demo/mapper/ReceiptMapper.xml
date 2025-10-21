@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zgxt.demo.mapper.ReceiptMapper">
+    <insert id="add" parameterType="com.zgxt.demo.model.Receipt" >
+        insert into receipt(
+            Id,
+            senderAddress,
+            accepterAddress,
+            receiptType,
+            transferType,
+            amount
+            )
+        values (
+                #{id},
+                #{senderAddress},
+                #{accepterAddress},
+                #{receiptType},
+                #{transferType},
+                #{amount}
+                )
+    </insert>
+</mapper>
