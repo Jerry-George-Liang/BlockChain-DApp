@@ -1,0 +1,29 @@
+import Vue from 'vue'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import VueRouter from 'vue-router'
+import routes from './router'
+// restful风格的ajax框架，请求后端
+import axios from "axios";
+import VueAxios from 'vue-axios'
+import App from './App.vue'
+import VueCookies from 'vue-cookies'
+
+
+axios.defaults.baseURL='/api'
+
+
+Vue.use(ElementUI);
+Vue.use(VueRouter);
+Vue.use(VueAxios, axios);
+Vue.use(VueCookies)
+Vue.config.productionTip = false
+
+const router = new VueRouter({
+  routes
+})
+
+new Vue({
+  router: router,
+  render: h => h(App),
+}).$mount('#app')
