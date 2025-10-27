@@ -7,6 +7,8 @@
 
 [fiscobcos](https://pan.baidu.com/s/1jNd-00m_BcgUS6tuAsV2Ow?pwd=mdmr)
 
+[maven](https://pan.baidu.com/s/1IPKvpDDPJkb271PPGZcdYg?pwd=xb32)
+
 项目整体结构：
 区块链运维 压力测试 + 智能合约编写 智能合约的测试 + springboot后端 + vue前端（Overall project structure: blockchain operations and maintenance, stress testing, smart contract development, smart contract testing, Spring Boot backend, Vue frontend）
 
